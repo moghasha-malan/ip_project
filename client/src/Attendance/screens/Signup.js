@@ -97,11 +97,11 @@ const SignUp  = ()=>{
         </div>
          <br />
 
-           <button className='btn btn-success mb-4 mt-2' onClick={() => handleRequest()}>Register</button>
+           <button className='btn btn-success mb-4 mt-2' style={{color:"#38b6ff"}} onClick={() => handleRequest() }> Register</button>
       </div>
       </div>
    )
 }
 
 
-export default SignUp
+export default SignUp;

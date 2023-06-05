@@ -52,20 +52,21 @@ const SignUp  = ()=>{
     }
 
    return (
-      <div className='col-9' style={{margin:'auto'}}>
-          <div className="card px-5 py-2" style={{margin:"5%"}}>
-            <Titleheading title="Student Registration" />
-           
+      <div className='' style={{margin:'auto'}}>
+          <div className="card" style={{marginTop:"7%",backgroundColor:"white", width:"41%",height:"100%",margin:"auto"}}>
+          <div className='tophead' style={{marginTop:"90%%"}}>  <Titleheading title="Student Registration" /> </div>
+           <br></br>
+           <br></br>
          
           <div className="row">
             <div className="col">
                 <input type="text" class="form-control stregis_incls"   
-                value={name} onChange={(e)=>setName(e.target.value)} placeholder="First Name" />
+                value={name} onChange={(e)=>setName(e.target.value)} placeholder="Enter First Name" />
            
             </div>
             <div className="col">
                 <input type="text" class="form-control stregis_incls"   
-                value={surname} onChange={(e)=>setSurName(e.target.value)} placeholder="Sur Name" />
+                value={surname} onChange={(e)=>setSurName(e.target.value)} placeholder="Enter Last Name" />
            
             </div>
           
@@ -74,12 +75,12 @@ const SignUp  = ()=>{
           <div className="row">
             <div className="col">
                 <input type="text" class="form-control stregis_incls"   
-                value={mother_name} onChange={(e)=>setMotherName(e.target.value)} placeholder="Mother Name" />
+                value={mother_name} onChange={(e)=>setMotherName(e.target.value)} placeholder="Enter Mother's Name" />
            
             </div>
             <div className="col">
                 <input type="text" class="form-control stregis_incls"   
-                value={father_name} onChange={(e)=>setFatherName(e.target.value)} placeholder="Father Name" />
+                value={father_name} onChange={(e)=>setFatherName(e.target.value)} placeholder="Enter Father's Name" />
            
             </div>
           
@@ -93,7 +94,7 @@ const SignUp  = ()=>{
             </div>
             <div className="col">
                 <input type="number" class="form-control stregis_incls"   
-                value={age} onChange={(e)=>setAge(e.target.value)} placeholder="Age" />
+                value={age} onChange={(e)=>setAge(e.target.value)} placeholder="Enter Age" />
            
             </div>
           
@@ -157,7 +158,7 @@ const SignUp  = ()=>{
             <div className="col">
             <input
             type="text"
-            placeholder="email"
+            placeholder="Enter Email"
             value={email}
            className='form-control stregis_incls'
             onChange={(e)=>setEmail(e.target.value)}
@@ -166,7 +167,7 @@ const SignUp  = ()=>{
             <div className="col">
             <input
             type="password"
-            placeholder="password"
+            placeholder="Set password"
             value={password}
             onChange={(e)=>setPasword(e.target.value)}
             className='form-control stregis_incls'
@@ -188,7 +189,7 @@ const SignUp  = ()=>{
             <div className="col">
             <input
             type="text"
-            placeholder="Address"
+            placeholder="Enter Address"
             value={address}
             onChange={(e)=>setAddress(e.target.value)}
             className='form-control stregis_incls'
@@ -202,7 +203,7 @@ const SignUp  = ()=>{
             <input
             className='form-control stregis_incls'
             type="number"
-            placeholder="Roll_No"
+            placeholder="Enter Roll_No"
             value={Roll_No}
             onChange={(e)=>setRoll_No(e.target.value)}
            
@@ -212,7 +213,7 @@ const SignUp  = ()=>{
             <div className="col">
                 
                 <input type="number" value={mobile} onChange={e => setMobile(e.target.value)} 
-                className="form-control stregis_incls" placeholder='Mobile No'/>
+                className="form-control stregis_incls" placeholder='Enter Contact Number'/>
             </div>
 
         
@@ -222,7 +223,7 @@ const SignUp  = ()=>{
        
        
 
-           <button className='btn btn-success mb-4 mt-2 stregis_incls' onClick={() => handleRequest()}>Register</button>
+           <button className='btn btn-success mb-4 mt-2 stregis_incls'style={{backgroundColor:"#38b6ff"}} onClick={() => handleRequest()}>Register</button>
       </div>
       </div>
    )
