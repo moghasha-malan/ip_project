@@ -22,7 +22,7 @@ const Allstudent = () => {
         <div>
              
             <Titleheading title="View All Student" />
-            <table  className='table table-bordered table-responsive-sm' style={{width:"90%",border:"2px solid black",margin:"auto"}}>
+            <table  className='mt-3 table table-bordered table-responsive-sm' style={{width:"90%",border:"2px solid black",margin:"auto"}}>
         <thead style={{fontSize:"22px"}} className='thead-dark'>
           <tr>
               <th >Name</th>

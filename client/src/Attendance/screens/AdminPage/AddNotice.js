@@ -24,7 +24,7 @@ const AddNotice = () => {
         <div className='col-7' style={{margin:'auto'}}>
           <div className="card px-5 py-2" style={{margin:"5%"}}>
           <Titleheading title="Add Notice" />
-          <div className="row">
+          <div className="mt-4 row">
             <div className="col">
             <input
             type="text"

@@ -38,7 +38,7 @@ const Profile = () => {
 
            
 
-           <div style={{height:"880px",background:"gray",width:"10%",paddingTop:"1%"}}>
+           <div style={{height:"880px",background:"rgb(87 143 159)",width:"18%",paddingTop:"1%"}}>
               
                <div>
                 <ul style={{listStyleType:"none" }}>

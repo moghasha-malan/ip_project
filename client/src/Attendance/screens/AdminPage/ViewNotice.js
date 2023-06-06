@@ -18,7 +18,7 @@ const ViewNotice = () => {
              </div>
         
             {allnotices && allnotices.posts && allnotices.posts.map(item =>(
-                <div key={item._id} className="card" style={{marginBottom:"20px"}}>
+                <div key={item._id} className="card mt-4" style={{marginBottom:"20px"}}>
                     <h4>{item.title}</h4>
                     <p style={{fontSize:"20px",textAlign:"justify",padding:"10px"}}>{item.content}</p>
                 </div>

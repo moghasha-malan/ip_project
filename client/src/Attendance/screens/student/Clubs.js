@@ -38,7 +38,7 @@ const Clubs = () => {
             
             <Titleheading title="Choose Your Club for joining" />
             {allClub && allClub.map(user => (
-                <div key={user._id} style={{width:"60%",margin:"auto"}}>
+                <div key={user._id} className="mt-4" style={{width:"60%",margin:"auto"}}>
                     <div style={{border:"1px solid black",marginBottom:"10px",padding:"10px" }}>
                     <h3>{user.name}</h3>
                      <p style={{  }}>{user.description}</p>

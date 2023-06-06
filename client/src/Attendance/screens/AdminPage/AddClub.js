@@ -25,7 +25,7 @@ const AddClub = () => {
           <div className="card px-5 py-2" style={{margin:"5%"}}>
           <Titleheading title="Add New Club" />
          
-          <div className="row">
+          <div className="mt-4 row">
             <div className="col">
             <input
             type="text"

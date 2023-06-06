@@ -5,8 +5,8 @@ import {loginUser} from '../actions/user_action'
 import {userType} from "../Utills/index"
 import backg from "../Images/backg.jpg"
 import StudentIMage from "../Images/student4.jpg"
-import AdminIMage from "../Images/admin2.jpg"
-import TeacherImage from "../Images/backgg.png"
+import AdminIMage from "../Images/admin3.avif"
+import TeacherImage from "../Images/teacher.avif"
 
 const SignIn  = ()=>{
     const history = useHistory()
@@ -62,7 +62,7 @@ const SignIn  = ()=>{
             :"212px",width:"350px"}} /></div>
             <div className='outer-text'><h4 style={{margin:"auto",marginBottom:"10px", font:"Helvetica"}}> Student Login</h4></div> */}
             <h4 style={{margin:"auto",marginBottom:"20px"}}>
-               Teacher Login
+               Student Login
                </h4>
                <img src={StudentIMage} alt="StudentIMage" className='landing_img' />
             

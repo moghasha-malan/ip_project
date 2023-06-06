@@ -15,7 +15,7 @@ import AddClub from "./AdminPage/AddClub"
 import ReqClub from "./AdminPage/ReqClub"
 import ViewCom from "./AdminPage/ViewCom"
 import AddSubject from "./AdminPage/AddSub"
-import AdminIMage from "../Images/admin2.jpg"
+import AdminIMage from "../Images/admin3.avif"
 
 
 const Home = () => {
@@ -112,10 +112,10 @@ const Home = () => {
            </div>
            <div style={{flex:1}}>
            {history.location.pathname == "/admin/dashboard" && <>
-           <div style={{marginLeft:"20%",marginTop:"40px"}}>
+           <div style={{marginLeft:"36%"}}>
                    <img src={AdminIMage} alt="StudentIMage" style={{height:"250px",width:"250px",borderRadius:"50%"}} />
                    <br />
-                   <h2 style={{marginLeft:"5.5%"}}>Admin </h2> 
+                   <h2 style={{marginLeft:"6%"}}>Welcome Admin </h2> 
                    <br />
                   
                 </div>

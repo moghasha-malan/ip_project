@@ -63,7 +63,7 @@ const TEdit  = ({match})=>{
       <div className='col-9' style={{margin:'auto'}}>
           <div className="card px-5 py-2" style={{margin:"5%"}}>
              <Titleheading  title="Teacher Registration"/>
-          <div className="row">
+          <div className="row mt-4">
             <div className="col">
                
                 <input type="text" class="form-control stregis_incls"   

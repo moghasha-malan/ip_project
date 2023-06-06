@@ -20,7 +20,7 @@ const Payment = () => {
         <div  style={{width:"80%",margin:"auto"}}>
                  <Titleheading title="Payment The Fees" />
                  <div style={{width:"50%",margin:"auto"}}>
-             <div className="row">
+             <div className="mt-4 row">
             <div className="col">
             <input
             type="Number"

@@ -54,7 +54,7 @@ const Sprofile = ({user}) => {
                     </div>
                    <Link to="/student/dashboard/edit" className='edit_profile'>    <i className="far fa-edit fa-2x"></i> </Link>
                
-                    <div style={{ display:"flex" ,marginBottom:"50px",marginLeft:"60px"}}>
+                    <div style={{ display:"flex" ,marginBottom:"50px"}}>
                     
                     <div className="file-field input-field">
                     <div

@@ -15,12 +15,12 @@ const ViewNotice = () => {
   
     return (
         <div style={{width:"80%",margin:"auto"}}>
-             <div >
+             <div className='mt-2'>
              <Titleheading title="All Complain" />
              </div>
         
             {allreport && allreport.posts && allreport.posts.map(item =>(
-                <div key={item._id} className="card" style={{marginBottom:"20px"}}>
+                <div key={item._id} className="card mt-4" style={{marginBottom:"20px"}}>
                     <h4>{item.title}</h4>
                     <p style={{fontSize:"20px"}}> Complained By: <b>{item.postedBy.name} {item.postedBy.surname}</b> || {item.createdAt.substr(0,10)} </p>
                    
