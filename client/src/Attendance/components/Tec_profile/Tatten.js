@@ -93,16 +93,16 @@ const Tatten = (props) => {
         <div>
              <br />
             <div style={{width:"80%",margin:"auto"}}>
-            <h3 style={{ textAlign:"center" }}>Make Attendance at {new Date().toISOString().slice(0, 10)}</h3>
+            <h3 style={{ textAlign:"center" }}>Mark Attendance of {new Date().toISOString().slice(0, 10)}</h3>
             </div>
             <br />
            
-        <table className='table table-bordered table-responsive-sm' style={{width:"80%",margin:"auto"}}>
+        <table className='table table-bordered table-responsive-sm' style={{width:"80%",margin:"auto",border:"2px solid",borderColor:"#38b6ff"}}>
    <thead style={{fontSize:"22px"}}>
      <tr>
          <th >Name</th>
-         <th>Roll_No</th>
-         <th>className</th>
+         <th>Roll No</th>
+         <th>Class</th>
          <th>Attendance</th>
      </tr>
    </thead>
@@ -117,7 +117,7 @@ const Tatten = (props) => {
              <td>
                  {item.Roll_No}
              </td>
-             <td style={{fontSize:"19px",fontWeight:"700"}}>
+             <td style={{fontSize:"19px"}}>
                    {item.clsName}
              </td>
           

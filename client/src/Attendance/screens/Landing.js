@@ -21,29 +21,36 @@ const Landing = () => {
            <div className="col-4 m-auto" style={{backgroundColor:"#38b6ff",borderRadius:"5%",}}>
 
          
-            <div className=" m-auto" style={{width:"100%",height:"300px",justifyContent:"center" }}>
-                <div className="card mt-5" style={{height: "43px", marginLeft:"30px",marginRight:"30px"}}>
+            <div className=" m-auto" style={{width:"100%",height:"270px",justifyContent:"center" }}>
+                <div className="card mt-5" style={{height: "40px", marginLeft:"30px",marginRight:"30px"}}>
                    {/* <img src={AdminIMage} alt="StudentIMage" style={{height:"250px",width:"250px"}} /> */}
                    
                    <Link className="link_class" to="/adminlogin" style={{textDecoration:"none",fontFamily:"Oswald",color:"black",textAlign:"center"}}> <h3>Admin Sign In</h3></Link>
                 </div>
          
-                <div className="card mt-5" style={{marginLeft:"30px",marginRight:"30px",height:"43px"}}>
+                <div className="card mt-5" style={{marginLeft:"30px",marginRight:"30px",height:"40px"}}>
                    {/* <img src={StudentIMage} alt="StudentIMage" style={{height:"250px",width:"250px"}} /> */}
                
                    <Link className="link_class" to="/stulogin" style={{textDecoration:"none",fontFamily:"Oswald",color:"black",textAlign:"center"}}> <h3 >Student Sign In</h3></Link>  
                 </div>
                 
-                <div className="card mt-5" style={{marginLeft:"30px",marginRight:"30px",height:"43px"}}>
+                <div className="card mt-5" style={{marginLeft:"30px",marginRight:"30px",height:"40px"}}>
                    {/* <img src={TeacherImage} alt="StudentIMage" style={{height:"250px",width:"250px"}} /> */}
                   
                    <Link className="link_class" to="/teclogin" style={{textDecoration:"none",fontFamily:"Oswald",color:"black",textAlign:"center"}}> <h3 >Teacher Sign In</h3></Link>  
                 </div>
             </div>
-             <div style={{fontFamily:"Oswald" , color:"white",marginLeft:"200px", marginRight:"30px",height:"43px"}}><h3>OR</h3></div>
-            <div className="card mt-5" style={{marginLeft:"30px",marginRight:"30px",height:"43px"}}>
-            <Link className="link_class" to="/signup" style={{textDecoration:"none",fontFamily:"Oswald",color:"black",textAlign:"center"}}><h3>Sign Up</h3></Link>
+             <div style={{fontFamily:"Oswald" , color:"white",marginLeft:"200px", marginRight:"30px",height:"40px",marginTop:"1%"}}><h3>OR</h3></div>
+
+
+             <div className="card mt-5" style={{marginLeft:"30px",marginRight:"30px",height:"40px"}}>
+            <Link className="link_class" to="/tsignup" style={{textDecoration:"none",fontFamily:"Oswald",color:"black",textAlign:"center"}}><h3>Teacher Sign Up</h3></Link>
           </div>
+
+            <div className="card mt-5" style={{marginLeft:"30px",marginRight:"30px",height:"40px"}}>
+            <Link className="link_class" to="/signup" style={{textDecoration:"none",fontFamily:"Oswald",color:"black",textAlign:"center"}}><h3>Student Sign Up</h3></Link>
+          </div>
+
             </div>
             
         </div>

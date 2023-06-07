@@ -69,7 +69,7 @@ const EditS  = ()=>{
             <Titleheading title="Edit Profile" />
            
          
-          <div className="row">
+          <div className="row"style={{margin:"5%"}}>
             <div className="col">
                 <input type="text" class="form-control stregis_incls"   
                 value={name} onChange={(e)=>setName(e.target.value)} placeholder="First Name" />

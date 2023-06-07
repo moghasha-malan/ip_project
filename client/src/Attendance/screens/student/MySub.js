@@ -19,32 +19,32 @@ const MySub = () => {
 
 
     return (
-        <div>
-                <table style={{width:"80%",margin:"auto"}}>
-        <thead style={{fontSize:"22px"}}>
-          <tr>
-              <th>No.</th>
-              <th >Subject Name</th>
-              <th>Subject Code </th>
-              <th>SubjectCredit</th>
-              <th>Subject Type</th>
+        <div >
+                <table style={{width:"80%",margin:"auto",border:"2px solid", borderColor:"#38b6ff",marginTop:"5%",textAlign:"center"}}>
+        <thead style={{border:"2px solid",borderColor:"#38b6ff"}}>
+          <tr style={{border:"2px solid",borderColor:"#38b6ff"}}>
+              <th style={{border:"2px solid",borderColor:"#38b6ff"}}>No.</th>
+              <th style={{border:"2px solid",borderColor:"#38b6ff"}}>Subject Name</th>
+              <th style={{border:"2px solid",borderColor:"#38b6ff"}}>Subject Code </th>
+              <th style={{order:"2px solid",borderColor:"#38b6ff"}}>SubjectCredit</th>
+              <th style={{border:"2px solid",borderColor:"#38b6ff"}}>Subject Type</th>
           </tr>
         </thead>
 
         {
            filterSub && filterSub.map((item,index) => (
                 <tbody key={item._id} style={{padding:"5px"}}>
-                <tr style={{height:"50px"}}>
-                    <td>{index+1}</td>
-                   <td>{item.sub_name}</td>
+                <tr style={{height:"50px",border:"2px solid",borderColor:"#38b6ff"}}>
+                    <td style={{border:"2px solid",borderColor:"#38b6ff"}}>{index+1}</td>
+                   <td  style={{border:"2px solid",borderColor:"#38b6ff"}}>{item.sub_name}</td>
                 
-                  <td>
+                  <td  style={{border:"2px solid",borderColor:"#38b6ff"}}>
                   {item.sub_code}
                   </td>
-                  <td >
+                  <td  style={{border:"2px solid",borderColor:"#38b6ff"}}>
                      {item.sub_credit} 
                   </td>
-                  <td >
+                  <td  style={{border:"2px solid",borderColor:"#38b6ff"}}>
                      {item.sub_type} 
                   </td>
                 </tr>

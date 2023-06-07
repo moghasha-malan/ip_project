@@ -48,10 +48,10 @@ const Tprofile = ({user}) => {
       };
     
     return (
-        <div className='card' style={{width:"40%",margin:"auto"}}>
+        <div className='card' style={{width:"40%",margin:"auto",marginTop:"3%",border:"2px solid",borderColor:"#38b6ff"}}>
             {user && <>
                 <div >
-                    <div style={{marginLeft:"34%",marginBottom:"20px"}}>
+                    <div style={{marginLeft:"29%",marginBottom:"20px",marginTop:"10%"}}>
                     <img src={ user[0].pic} alt="mahen"  style={{height:"200px",width:"200px",borderRadius:"100px"}} />
                     </div>
                    
@@ -59,10 +59,10 @@ const Tprofile = ({user}) => {
                
                     <div style={{ display:"flex" ,marginBottom:"50px",marginLeft:"60px"}}>
                     
-                    <div className="file-field input-field">
+                    <div className="file-field input-field"  style={{ marginLeft: "3px" }}>
                     <div
               className="btn #64b5f6 input-field2"
-              style={{ marginLeft: "20px" }}
+              style={{ marginLeft: "10px" }}
             >
              
               <input

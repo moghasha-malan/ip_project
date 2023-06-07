@@ -55,7 +55,7 @@ const SignIn  = ()=>{
 
 
           
-          <div className="card" style={{margin:"auto",height: "533px",marginTop:"60px", display:"flex"}}>
+          <div className="card" style={{margin:"auto",height: "533px",marginTop:"60px", display:"flex", border:"2px solid", borderColor:"#38b6ff"}}>
           
             {history.location.pathname == "/stulogin" && <> 
             {/* <div className='innerimg'><img src={StudentIMage} alt="StudentIMage" style={{height
@@ -133,7 +133,7 @@ const SignIn  = ()=>{
         </div> */}
        
 
-           <button className='btn btn-primary mb-4 mt-2 st_input_class' onClick={() => handleRequest()}>Signin</button>
+           <button className='btn btn-primary mb-4 mt-2 'style={{width:"55%"}} onClick={() => handleRequest()}>Sign In</button>
 
            <Link to="/landing"><i className="far fa-arrow-square-left fa-2x"></i></Link>
       </div>

@@ -28,7 +28,7 @@ const Matten = (props) => {
         <div>
              <br />
             <div style={{width:"80%",margin:"auto"}}>
-            <h3 style={{ textAlign:"center" }}> Upload The Mark of Student </h3>
+            <h3 style={{ textAlign:"center" }}> Upload Student Marks </h3>
             </div>
             <br />
             

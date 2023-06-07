@@ -18,7 +18,7 @@ const Payment = () => {
       
     return (
         <div  style={{width:"80%",margin:"auto"}}>
-                 <Titleheading title="Payment The Fees" />
+                 <Titleheading title="Pay Your Fees" />
                  <div style={{width:"50%",margin:"auto"}}>
              <div className="mt-4 row">
             <div className="col">

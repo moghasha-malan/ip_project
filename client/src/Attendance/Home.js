@@ -44,14 +44,14 @@ const Home = () => {
 
     return (
         <div style={{display:"flex"}}>
-           <div style={{height:"880px",background:"gray",width:"13%",paddingLeft:"10px"}}>
+           <div style={{height:"880px",background:"rgb(87 143 159)",width:"13%",paddingLeft:"10px"}}>
            <div>
            <Link to={`/teacher/dashboard`} className="link_class"> <i className="fas fa-exclamation-square"></i> Profile</Link>
            <hr style={{color:"black"}} />
             </div>
            <div>
                 <p  onClick={() => setCshow(!cshow)} style={{fontSize:"20px",color:"white"}}> 
-                <i className="fas fa-user-friends"/> Make Attendance</p>
+                <i className="fas fa-user-friends"/> Mark Attendance</p>
                 {cshow && (
                     <ul style={{listStyleType:"none" }}>
                     {classNum.map(item =>(
