@@ -46,11 +46,11 @@ const Sprofile = ({user}) => {
       };
 
     return (
-        <div className='card' style={{width:"40%",margin:"auto"}}>
+        <div className='card' style={{width:"40%",margin:"auto",marginTop:"3%",border:"2px solid", borderColor:"#38b6ff"}}>
             {user && <>
                 <div >
-                    <div style={{marginLeft:"34%",marginBottom:"20px"}}>
-                    <img src={ user[0].pic} alt="mahen"  style={{height:"200px",width:"200px",borderRadius:"100px"}} />
+                    <div style={{marginLeft:"29%",marginBottom:"20px"}}>
+                    <img src={ user[0].pic} alt="mahen"  style={{height:"200px",width:"200px",borderRadius:"100px",marginTop:"1%"}} />
                     </div>
                    <Link to="/student/dashboard/edit" className='edit_profile'>    <i className="far fa-edit fa-2x"></i> </Link>
                

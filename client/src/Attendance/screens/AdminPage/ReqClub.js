@@ -24,7 +24,7 @@ const ReqClub = () => {
         <div>
           
             <Titleheading title="Requested By Student To Join Club" />
-            <table  className='mt-4 table table-bordered table-responsive-sm' style={{width:"90%",border:"2px solid black",margin:"auto"}}>
+            <table  className='mt-4 table table-bordered table-responsive-sm' style={{width:"90%",border:"2px solid",margin:"auto",borderColor:"#38b6ff"}}>
         <thead style={{fontSize:"22px"}} className='thead-dark'>
           <tr>
               <th >ClubName</th>

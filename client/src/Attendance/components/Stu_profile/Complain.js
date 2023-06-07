@@ -23,7 +23,7 @@ const Complain = () => {
 
     return (
         <div className='col-7' style={{margin:'auto'}}>
-          <div className="card px-5 py-2" style={{margin:"5%"}}>
+          <div className="card px-5 py-2" style={{margin:"5%", border:"2px solid",borderColor:"#38b6ff"}}>
           <Titleheading title="Report Your Complain" />
           <div className="mt-4 row">
             <div className="col">

@@ -34,7 +34,7 @@ const MyTimeTable = () => {
     return (
         <div style={{width:"80%",margin:"auto"}}>
                <Titleheading title="My Timetable for Classes" />
-                <table  className='mt-4 table table-bordered table-responsive-sm' >
+                <table  className='mt-4 table table-bordered table-responsive-sm'style={{border:"2px solid", borderColor:"#38b6ff"}} >
         <thead >
           <tr style={{height:"100px"}}>
             

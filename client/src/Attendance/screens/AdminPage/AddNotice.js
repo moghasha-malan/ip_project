@@ -22,7 +22,7 @@ const AddNotice = () => {
 
     return (
         <div className='col-7' style={{margin:'auto'}}>
-          <div className="card px-5 py-2" style={{margin:"5%"}}>
+          <div className="card px-5 py-2" style={{margin:"5%",border:"2px solid", borderColor:"#38b6ff"}}>
           <Titleheading title="Add Notice" />
           <div className="mt-4 row">
             <div className="col">
@@ -50,7 +50,7 @@ const AddNotice = () => {
          
        
 
-           <button className='btn btn-success mb-4 mt-2' onClick={() => handleRequest()}>Submit</button>
+           <button className='btn btn-success mb-4 mt-2'style={{backgroundColor:"#38b6ff"}} onClick={() => handleRequest()}>Submit</button>
       </div>
       </div>
     );

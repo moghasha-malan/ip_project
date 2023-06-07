@@ -46,7 +46,7 @@ const Marks = () => {
             {/* <button type="button" onClick={handleDownloadPdf}>
                Download as PDF
           </button> */}
-          <div >
+          <div style={{border:"2px solid",borderColor:"#38b6ff",marginTop:"3%",marginRight:"3%"}} >
               <div >
                   <h4 style={{ textAlign:"center",marginLeft:"-140px",marginBottom:"50px",marginTop:"50px" }}>Your Result Sheet</h4>
               </div>

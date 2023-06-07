@@ -78,7 +78,7 @@ const Attendance = () => {
            <div style={{marginTop:"20px"}}>
             
          
-             <table className='table table-bordered table-responsive-sm' style={{width:"80%",margin:"auto"}}>
+             <table className='table table-bordered table-responsive-sm' style={{width:"90%",margin:"auto",border:"2px solid",borderColor:"#38b6ff"}}>
         <thead style={{fontSize:"22px"}}>
           <tr>
               <th >Date</th>
@@ -90,7 +90,7 @@ const Attendance = () => {
 
         {
            currentUser && currentUser[0].attdenList && currentUser[0].attdenList.map(user => (
-                <tbody key={user.name} style={{padding:"5px"}}>
+                <tbody key={user.name} style={{padding:"5px",border:"2px solid",borderColor:"#38b6ff"}}>
                 <tr className= { setclasssfun(user.type) ? "table-danger" : "table-success" }>
                    <td>{moment.unix(user.timestamp/1000).format("DD MMM YYYY")}</td>
                 

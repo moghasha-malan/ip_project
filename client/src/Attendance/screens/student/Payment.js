@@ -17,7 +17,7 @@ const Payment = () => {
       }
       
     return (
-        <div  style={{width:"80%",margin:"auto"}}>
+        <div  style={{width:"90%",margin:"auto",marginTop:"3%",border:"2px solid", borderColor:"#38b6ff"}}>
                  <Titleheading title="Pay Your Fees" />
                  <div style={{width:"50%",margin:"auto"}}>
              <div className="mt-4 row">
@@ -55,9 +55,9 @@ const Payment = () => {
              stripeKey='pk_test_zKpriPTZuuvkW0Lmv32D4kIW00Hpmdac2h'
              currency="INR"
              >
-             <div className="d-grid gap-2 mt-3">
+             <div className="d-grid gap-2 mt-3" style={{marginBottom:"2%"}}>
                 
-                <button className="btn btn-success" type="button">Paymant Now</button>
+                <button className="btn btn-success" type="button">Pay Now</button>
              </div>
                
              </StripeCheckout>   
